@@ -7,3 +7,11 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+/* --------------- Search database on click of search-button --------------- */
+/* --------------- Remove alert --------------- */
+
+$('.close').click(function () {
+    $('.alert-box').hide();
+})
+
